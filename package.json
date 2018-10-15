@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build.prod": "ng build --aot --prod --progress false --base-href \"https://laycraft.github.io/portfolio\""
+    "build.prod": "ng build --aot --prod --progress false --base-href \"https://laycraft.github.io/portfolio/\""
   },
   "private": true,
   "dependencies": {

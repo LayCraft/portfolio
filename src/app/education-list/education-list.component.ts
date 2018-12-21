@@ -7,7 +7,15 @@ import { Education } from '../classes/education';
   styleUrls: ['./education-list.component.css']
 })
 export class EducationListComponent implements OnInit {
-
+  EDUCATION: Education[] = [
+    {
+      schoolName: 'edu',
+      programName: 'edu',
+      completionDate: 'edu',
+      programDescription: 'edu',
+      honours: true,
+    },
+  ];
   constructor() { }
 
   ngOnInit() {

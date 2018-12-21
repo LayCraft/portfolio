@@ -1,4 +1,4 @@
-export class job {
+export class Job {
     companyName: string;
     positionName: string;
     startDate: string;

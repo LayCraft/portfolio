@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Education } from '../classes/education';
 
 @Component({
   selector: 'app-education-list',

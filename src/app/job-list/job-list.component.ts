@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Job } from '../classes/job';
 
 @Component({
   selector: 'app-job-list',

@@ -7,7 +7,17 @@ import { Job } from '../classes/job';
   styleUrls: ['./job-list.component.css']
 })
 export class JobListComponent implements OnInit {
-
+  JOBS: Job[] = [
+    {    
+      companyName: 'company',
+      positionName: 'position',
+      startDate: 'start',
+      endDate: 'end',
+      shortDescription: 'short',
+      longDescription: 'long',
+      keywords: ['key']
+    },
+  ];
   constructor() { }
 
   ngOnInit() {

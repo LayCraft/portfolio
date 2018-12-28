@@ -5,5 +5,5 @@ export class Job {
     endDate: string;
     shortDescription: string;
     longDescription: string;
-    keywords: string[];
+    bonus: string[]; // This is a collection of flavour text that can be added onto the resume for situations where specific information is saught.
 }

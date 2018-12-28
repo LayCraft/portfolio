@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Angular App automatically deployed to Github pages using Travis CI';
+  title = 'This is an Angular App automatically deployed to Github pages using Travis CI. If you can see this text it is working.';
 }

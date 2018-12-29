@@ -1,8 +1,9 @@
+<h2>Education</h2>
 <span *ngFor="let school of EDUCATION">
-  {{school.schoolName}}<br>
-  {{school.programName}}<br>
-  {{school.completionDate}}<br>
+  <h5>{{school.schoolName}}</h5>
+  <h6>{{school.programName}} ({{school.completionDate}})</h6>
+  <span  *ngIf="school.honours"><strong> Graduated with honours 🏆</strong><br></span>
   {{school.programDescription}}<br>
-  {{school.honours}}<br>
+  
   <hr>
 </span>

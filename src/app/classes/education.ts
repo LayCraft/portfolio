@@ -4,4 +4,5 @@ export class Education {
     completionDate: string;
     programDescription: string;
     honours: boolean;
+    bonus?: string[];
 }

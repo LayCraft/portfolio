@@ -1,8 +1,7 @@
 <h2>Work Experience</h2>
 <span *ngFor="let job of JOBS">
-  {{job.companyName}}<br>
-  {{job.positionName}}<br>
-  {{job.startDate}} - {{job.endDate}}<br>
+  <h5>{{job.companyName}}</h5>
+  <h6>{{job.positionName}} ({{job.startDate}}<span *ngIf="job.endDate != job.startDate"> - {{job.endDate}}</span>)</h6>
   {{job.shortDescription}}<br>
   {{job.longDescription}}<br>
   <hr>

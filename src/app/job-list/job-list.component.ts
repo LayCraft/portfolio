@@ -14,7 +14,7 @@ export class JobListComponent implements OnInit {
       startDate: '2018',
       endDate: 'present',
       shortDescription: 'Create and maintain support tools for manufacturing and production teams.',
-      longDescription: 'Create and maintain software tools to support manufacturing and production teams. This includes updating legacy .NET apps. Reverse engineering. Documentation. Network understanding. File management. Sharepoint management. Server admin. Database skills. Developing support software tools. Scripting, automation. Digitization. A mile wide of experience.',
+      longDescription: 'Create and maintain software tools to support manufacturing and production teams.',
       bonus: [
         'Integrate machines with Active Directory (AD) and group policy.', 
         'Maintenence of legacy .NET web apps running on IIS. This includes C# and VB.NET.', 
@@ -45,7 +45,9 @@ export class JobListComponent implements OnInit {
         'Wrote centralized step-by-step guides and documentation for various systems.',
         'Source control versioning experience in Github Enterprise and Perforce.',
         'IT tasks for Windows systems including OS installation, hardware troubleshooting, and office support.',
-        'Electrical safety and manufacturing ergonomics design training.'
+        'Electrical safety and manufacturing ergonomics design training.',
+        'Create digitization solutions for manufacturing and production.',
+        'Create team triage tool for automated risk assessment.'
       ]
     },
     {    

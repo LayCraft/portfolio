@@ -5,5 +5,8 @@
   {{job.startDate}} - {{job.endDate}}<br>
   {{job.shortDescription}}<br>
   {{job.longDescription}}<br>
+  <ul>
+    <li *ngFor="let entry of job.bonus">{{entry}}</li>
+  </ul>
   <hr>
 </span>

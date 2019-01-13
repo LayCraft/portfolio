@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./resume-builder.component.css']
 })
 export class ResumeBuilderComponent implements OnInit {
-
+  keywords: any;
   constructor() { }
 
   ngOnInit() {
   }
-
+  cleanKeywords(uncheckedUserInput){
+    this.keywords = uncheckedUserInput;
+  }
 }

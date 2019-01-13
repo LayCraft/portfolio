@@ -1,7 +1,8 @@
 <div class="form-group">
   <label for="keywordInput">Keywords</label>
-  <input type="text" class="form-control" id="keywordInput" aria-describedby="keywordHelp" placeholder="devops, database, etc…">
-  <small id="keywordHelp" class="form-text text-muted">Enter keywords here to change résumé content.</small>
+  <input #keywordInputBox (input)="cleanKeywords(keywordInputBox.value)" type="text" class="form-control" id="keywordInput" aria-describedby="keywordHelp" placeholder="devops, database, etc…">
+	<small id="keywordHelp" class="form-text text-muted">Eventually you will enter keywords here to change résumé content.</small>
+	<span *ngIf="keywords">As mentioned this is unimplemented and unchecked. Your input: {{keywords}}</span>
 </div>
 
 <h1 class="display-3">Résumé</h1>

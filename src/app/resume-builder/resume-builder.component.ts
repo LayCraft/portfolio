@@ -15,7 +15,6 @@ export class ResumeBuilderComponent implements OnInit {
     //this is a basic chop of the keywords into a list
     //split on commas and semicolons
     this.keywords = uncheckedUserInput
-      .toLowerCase()
       .split(",")
       .map(item=>{
         //clean whitespace off of the ends

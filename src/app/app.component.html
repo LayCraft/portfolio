@@ -1,66 +1,20 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">
-    <!-- <img src="logo.svg" width="30" height="30" class="d-inline-block align-top" alt=""> -->
-    Curtis LayCraft
-  </a>
-</nav>
+<app-top-nav-bar></app-top-nav-bar>
+
+<div class="jumbotron">
+  <div class="row">
+	<div class="col">
+	  <h1 class="display-3">Curtis LayCraft</h1>
+	  <p>Curtis is currently working on a manufacturing team at Schneider Electric in Victoria BC using his analytical skills, applied communication skills, and technical prowess.</p>
+	</div>
+  </div>
+</div>
 <div class='container'>
   <div class="row">
-  <div class="col">
-    {{title}}
-    <p>This is a playground right now. Eventually I hope that it becomes a replacement for the Heroku app. There is a lot of work to do here because I am going to learn some manual style techniques instead of going straight for Bootstrap. Although this looks so terrible I'm going to go for a quick bootstrap job initially. It still looks bad but is better than nothing.</p>
-    <ul>
-      <li><a href="tel:+12508915376">+1-250-891-5376</a></li>
-      <li><a href="https://laycraft.herokuapp.com">laycraft.herokuapp.com</a></li>
-      <li><a href="mailto:Curtis.LayCraft@Zoho.com">Curtis.LayCraft@zoho.com</a></li>
-    </ul>
-
-    <hr>
-    <p>I would like to get this content on this page so that I can use it. It is still messy with old bootstrap tags from the other repo.</p>
-    <div>
-
-        <h1 class="display-3">Résumé</h1>
-        <p>
-          I love to solve new problems and my work history reflects that. As a co-op I worked with the BC government and I supported the project team by using my resourcefulness to make problems go away. I started a graphic design company and took jobs doing just about any little thing. My friends opened a board game café so I did a lot of startup tasks including teaching board games, fixing things, making customers feel welcome, and setting up POS systems. The Salvation Army gave me responsibilities like organizing people and reworking communications. I love solving puzzles and problems.
-        </p>
-        <p>
-          This brings me to the ultimate career where I can put all of my skills to use: software development.
-        </p>
- 
+    <div class="col">
+      {{title}}
+      <p>This is a playground right now. Eventually I hope that it becomes a replacement for the Heroku app. There is a lot of work to do here because I am going to learn some manual style techniques instead of going straight for Bootstrap. Although this looks so terrible I'm going to go for a quick bootstrap job initially. It still looks very boilerplate but is better than nothing.</p>
+      <hr>
+      <app-resume-builder></app-resume-builder>
     </div>
-
-    <div>
-      <div class="card">
-        <div class="card-body">
-          <h2>Objective</h2>
-          <hr>
-          <p>To find and join a great team. To build software development skills.</p>
-        </div>
-      </div>
-    </div>
-    <div>
-      <div class="card">
-        <div class="card-body">
-          <h2>Highlights</h2>
-          <hr>
-          <ul>
-            <li>Versatile skills through a broad range of experience</li>
-            <li>Dedication to high achievement as shown by consistent honour roll and co-op experience</li>
-            <li>Loves methodological problem solving</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <h3 class="mt-5">Under construction past this point.</h3>
-
-    <app-education-list></app-education-list>
-  </div>
-
-  <div class="col">
-    
-    <app-job-list></app-job-list>
-  </div>
-  
   </div>
 </div>

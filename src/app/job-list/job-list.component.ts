@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Job } from '../classes/job';
+import { StateService } from '../state.service';
 
 @Component({
   selector: 'app-job-list',
@@ -7,6 +8,7 @@ import { Job } from '../classes/job';
   styleUrls: ['./job-list.component.css']
 })
 export class JobListComponent implements OnInit {
+  keywords = ['jibberty'];
   JOBS: Job[] = [
     {    
       companyName: 'Schneider Electric - Power Measurement Ltd',
@@ -225,9 +227,12 @@ export class JobListComponent implements OnInit {
     },
     
   ];
-  constructor() { }
+  constructor(
+    private stateService: StateService
+  ) { }
 
   ngOnInit() {
+    this.stateService.keywords.subscribe(keywords=>this.keywords=keywords);
   }
 
 }

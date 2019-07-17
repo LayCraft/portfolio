@@ -4,11 +4,17 @@ export const JOBS: Job[] = [
   {
     companyName: 'Quartech',
     positionName: 'Full Stack Developer',
-    startDate: '2019',
+    startDate: '2019', // March
     endDate: 'present',
-    shortDescription: 'Build OpenShift hosted web apps in ASP.net Core 2.2',
-    longDescription: '',
-    bonus: []
+    shortDescription: 'Building and maintaining web applications hosted in OpenShift. From DevOps to UI.',
+    longDescription: 'Building and maintaining web applications written with Angular, Bootstrap, and .NET Core for use on OpenShift. From DevOps to UI interactions.',
+    bonus: [
+      'MS SQL database access in OpenShift on the EMBC-ESS project.',
+      'Building Angular reactive forms and validation using Bootstrap.',
+      'Angular authentication guarding and routing with integration with BCGov\'s SiteMinder authentication system.',
+      'DevOps experience with OpenShift; Jenkins, '
+
+    ]
   },
   {
     companyName: 'Schneider Electric - Power Measurement Ltd',
@@ -72,8 +78,8 @@ export const JOBS: Job[] = [
     positionName: 'Stackbutton: A friendly provisioning tool for DevOps tool chains.',
     startDate: '2017',
     endDate: '2017',
-    shortDescription: '',
-    longDescription: '',
+    shortDescription: 'A student project that is intended as a handy dashboard for monitoring OpenShift.',
+    longDescription: 'A student project made in Angular and Patternfly intended as a handy dashboard for monitoring OpenShift.',
     bonus: []
   },
   {

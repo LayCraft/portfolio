@@ -12,7 +12,8 @@ export const JOBS: Job[] = [
       'MS SQL database access in OpenShift on the EMBC-ESS project.',
       'Building Angular reactive forms and validation using Bootstrap.',
       'Angular authentication guarding and routing with integration with BCGov\'s SiteMinder authentication system.',
-      'DevOps experience with OpenShift; Jenkins, '
+      'DevOps experience and training with OpenShift.',
+      'User stories, bugs, and task tracking in Jira.',
 
     ]
   },

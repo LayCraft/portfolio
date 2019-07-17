@@ -1,1 +1,101 @@
-/* You can add global styles to this file, and also import other style files */
+/*
+turquoise 00E3BB
+yellow F0B50C
+pink F00CD3
+green 00A109
+red E2090A
+blue 000B9B
+dark 000807
+*/
+
+.patternbox {
+  background: url("assets/patterns/pattern.svg");
+  background-size: 180px;
+  height: 100%;
+}
+.jumbotron {
+  background-size: 50%;
+  background-color: #00E3BB;
+  border-radius: 0;
+}
+
+/*TODO: this card class can be applied globally but it it is not working globally from styles.css Figure out how to make wider css bootstrap theme changes.*/
+.card {
+  border: solid 2px #F00CD3;
+  border-radius: 0.25rem;
+  margin: 1rem 0;
+}
+.card hr {
+  border: dotted #00E3BB 3px;
+  border-bottom: none;
+  margin: 10px 0 20px 0;
+}
+.border-bottom-color {
+  border-bottom: 2px solid #F00CD3;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  font-weight: bolder;
+}
+.btn-primary:link, .btn-primary:visited, .btn-primary:active{
+  background-color: #F00CD3;
+
+  border: solid #ffffff 2px;
+}
+.btn-primary:hover{
+  color: #ffffff;
+  background-color: #F0B50C;
+}
+
+.jumbotron {
+  background-size: 50%;
+  background-color: #00E3BB;
+  border-radius: 0;
+}
+hr {
+  border: dotted #F00CD3 3px;
+  border-bottom: none;
+}
+
+/*TODO Does this do anything? Check later.*/
+.instructions {
+  float: none;
+}
+
+
+#profile {
+  width: 100%;
+  /*border-radius: 50%;*/
+  border: dotted white 6px;
+}
+
+.card {
+  border: solid 2px #F00CD3;
+  border-radius: 0.25rem;
+  margin: 1rem 0;
+}
+.card-img-top {
+
+}
+.btn-primary:link, .btn-primary:visited, .btn-primary:active{
+  background-color: #F00CD3;
+
+  border: solid #ffffff 2px;
+}
+.btn-primary:hover{
+  color: #ffffff;
+  background-color: #F0B50C;
+}
+
+/*
+turquoise 00E3BB
+yellow F0B50C
+pink F00CD3
+green 00A109
+red E2090A
+blue 000B9B
+dark 000807
+*/
+footer {
+  background: #F0B50C ;
+  border-top: 3px #F00CD3 solid;
+}

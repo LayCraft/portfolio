@@ -7,6 +7,7 @@ import { JobListComponent } from './job-list/job-list.component';
 import { EducationListComponent } from './education-list/education-list.component';
 import { TopNavBarComponent } from './top-nav-bar/top-nav-bar.component';
 import { ResumeBuilderComponent } from './resume-builder/resume-builder.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { ResumeBuilderComponent } from './resume-builder/resume-builder.componen
     EducationListComponent,
     TopNavBarComponent,
     ResumeBuilderComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

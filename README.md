@@ -1,5 +1,7 @@
 # Portfolio
 
+Visit this portfolio at [Github Pages](https://laycraft.github.io/portfolio/). This Angular code is built by [Travis-CI](https://travis-ci.org/) then put in its finished form back onto gihub pages. The nice part is that I don't have to do anything besides update my repo master to update the web-app. Unfortunately GH pages can't contain any databases or things like that so this is all static content.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.1.
 
 ## Development server

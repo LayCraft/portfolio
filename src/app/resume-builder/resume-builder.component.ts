@@ -11,14 +11,14 @@ export class ResumeBuilderComponent implements OnInit {
 
   ngOnInit() {
   }
-  cleanKeywords(uncheckedUserInput:string){
-    //this is a basic chop of the keywords into a list
-    //split on commas and semicolons
+  cleanKeywords(uncheckedUserInput: string) {
+    // this is a basic chop of the keywords into a list
+    // split on commas and semicolons
     this.keywords = uncheckedUserInput
-      .split(",")
-      .map(item=>{
-        //clean whitespace off of the ends
+      .split(',')
+      .map(item => {
+        // clean whitespace off of the ends
         return item.trim();
       });
-  } 
+  }
 }

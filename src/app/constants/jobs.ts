@@ -59,7 +59,8 @@ export const JOBS: Job[] = [
 			'IT tasks for Windows systems including OS installation, hardware troubleshooting, and office support.',
 			'Electrical safety and manufacturing ergonomics design training.',
 			'Create digitization solutions for manufacturing and production.',
-			'Create team triage tool for automated risk assessment.'
+			'Create team triage tool for automated risk assessment.',
+			'Troubleshoot network and USB connected Zebra and Ricoh printers.'
 		]
 	},
 	{

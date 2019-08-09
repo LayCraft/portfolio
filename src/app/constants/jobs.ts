@@ -129,8 +129,8 @@ export const JOBS: Job[] = [
   {
     companyName: 'The Salvation Army Community and Family Services',
     positionName: 'Communication Designer',
-    startDate: '2013',
-    endDate: '2016',
+    startDate: '2011',
+    endDate: '2012',
     shortDescription: 'Website content, rebranding, communication design, computer literacy instruction.',
     longDescription: 'Curtis set up and the new Joomla website. He collected and wrote descriptions about the many programs and services that The Salvation Army Stan Hagen Centre for Families provides. He redesigned print materials to fit the centre\'s renaming: forms, business cards, certificates, manuals, signs, and etc… Curtis taught computer literacy skills in the computer lab: Windows, File Management, Word, Excel, and powerpoint. During Christmas he was responsible for various organizational tasks surrounding the Christmas Hamper and Toy Shop programs such as collecting and managing client intake data.',
     bonus: []

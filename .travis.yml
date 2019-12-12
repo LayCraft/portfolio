@@ -1,18 +1,18 @@
 language: node_js
 node_js:
-  - "9"
- 
+  - "10"
+
 branches:
   only:
     - master
- 
+
 cache:
   directories:
     - node_modules
- 
+
 script:
   - npm run build.prod
- 
+
 deploy:
   provider: pages
   skip_cleanup: true

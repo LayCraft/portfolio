@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Education } from '../classes/education';
+import { iEducation } from '../classes/education';
 
 @Component({
   selector: 'app-education-list',
@@ -7,7 +7,7 @@ import { Education } from '../classes/education';
   styleUrls: ['./education-list.component.css']
 })
 export class EducationListComponent implements OnInit {
-  EDUCATION: Education[] = [
+  EDUCATION: iEducation[] = [
     {
       schoolName: 'Camosun College',
       programName: 'Computer Systems Technologist Diploma',

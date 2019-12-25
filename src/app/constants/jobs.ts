@@ -174,35 +174,36 @@ export const JOBS: iJob[] = [
     ],
     software: [
       'ASP.Net',
+      'Active Directory',
       'Angular 6',
       'BASH',
       'Bootstrap',
       'Docker',
       'Express',
+      'Express',
       'Github Enterprise',
+      'IIS web server',
       'LabView',
       'MS Access',
+      'MongoDB',
       'Nmap',
       'Node.js',
-      'VNC',
-      'MongoDB',
-      'Express',
-      'VirtualBox',
+      'Oracle SQL',
       'Perforce Helix',
       'PlantUML',
       'Python Flask',
       'Raspberry Pi',
+      'SQL Server Management Studio (SSMS)',
+      'SQL Server',
       'Sharepoint',
       'Slack',
       'VB.Net',
+      'VNC',
+      'VirtualBox',
       'Visual Studio Code',
       'Windows 10',
-      'Windows Server 2016',
-      'IIS web server',
       'Windows Networking',
-      'SQL Server',
-      'SQL Server Management Studio (SSMS)',
-
+      'Windows Server 2016',
     ],
     technology: [
       'Microsoft Development',
@@ -247,7 +248,8 @@ export const JOBS: iJob[] = [
       'MongoDB',
       'Mongoose',
       'Express',
-      'PlantUML'
+      'PlantUML',
+      'Node.js'
     ],
     technology: [
       'Plant UML',
@@ -268,7 +270,26 @@ export const JOBS: iJob[] = [
     endDate: '2017',
     shortDescription: 'A student project that is intended as a handy dashboard for monitoring OpenShift.',
     longDescription: 'A student project made in Angular and Patternfly intended as a handy dashboard for monitoring OpenShift.',
-    bonus: []
+    bonus: [],
+    software: [
+      'Angular 2',
+      'Patternfly',
+      'Sails',
+      'Node.js',
+      'Git',
+      'D3',
+      'C3',
+      'Docker',
+    ],
+    methodology: [
+      'Small team',
+      'Feature branching',
+      'Agile',
+      'UML',
+      'SDLC (Software Development Life Cycle)',
+      'Containers',
+      'Microservices'
+    ]
   },
   {
     companyName: 'BC Public Service Agency',
@@ -277,7 +298,18 @@ export const JOBS: iJob[] = [
     endDate: '2016',
     shortDescription: 'Six month co-op. Report creation, data analysis, implementation, process recommendations, troubleshooting, strategic threat & risk assessment (STRA), privacy impact assessment (PIA), support for data migration. Focus on mobile version.',
     longDescription: 'Curtis joined the Time and Leave project team at the BC Public Service agency for the larger product rollout and transfer of the project to the operations team.\nThe software is based on Oracle PeopleSoft. Responsibilities included report creation, data analysis, implementation, process recommendations, troubleshooting, strategic threat & risk assessment (STRA), privacy impact assessment (PIA), and support for data migration.\n With oversight from project managers, he developed project management  and documentation skills through a sub-project called "Mobile Enablement". The project was taken from charter to completion and is built on GreyHeller\'s People Mobile software. The project can be seen by visiting the BC Gov’s MyHR portal from a mobile device. This was a tremendous learning experience and introduction to the software development life cycle in large organizations.',
-    bonus: []
+    bonus: [],
+    software: [
+      'Oracle PeopleSoft',
+      'Sharepoint',
+      'Microsoft Excel',
+      'Greyheller People Mobile',
+    ],
+    methodology: [
+      'PIA (Privacy Impact Assessment)',
+      'STRA (Strategic Threat and Risk assessment)',
+      'SDLC (Software Development Life Cycle)',
+    ]
   },
   {
     companyName: 'LayCraft Design',
@@ -286,7 +318,7 @@ export const JOBS: iJob[] = [
     endDate: '2014',
     shortDescription: 'Client communication, administration, creative direction, print design, illustration, photography, branding consultation, and contract instruction.',
     longDescription: 'Established in 2007, LayCraft Design was a full-service creative company. Curtis\' primary responsibilities included client communication, administration, creative direction, web design, print design, illustration, photography, branding consultation, and contract instruction.\nExamples of clients: Government of Alberta computer training centre, Sun Media Group, BC Art Teachers Association, The Red Cross, The Salvation Army, and Events Edmonton. Created various branding, ads, promotions for nightclubs, restaurants, industrial companies, and other businesses.',
-    bonus: []
+    bonus: [],
   },
   {
     companyName: 'Interactivity Board Game Café',

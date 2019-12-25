@@ -8,6 +8,8 @@ blue 000B9B
 dark 000807
 */
 
+@import "~bootstrap/dist/css/bootstrap.css";
+
 .patternbox {
   background: url("assets/patterns/pattern.svg");
   background-size: 180px;

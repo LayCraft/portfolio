@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Job } from '../classes/job';
+import { iJob } from '../classes/job';
 import { JOBS } from 'src/app/constants/jobs';
 
 @Component({
@@ -8,7 +8,7 @@ import { JOBS } from 'src/app/constants/jobs';
   styleUrls: ['./job-list.component.css']
 })
 export class JobListComponent implements OnInit {
-  JOBS: Job[] = JOBS;
+  JOBS: iJob[] = JOBS;
   constructor() { }
 
   ngOnInit() {

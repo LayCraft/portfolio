@@ -33,7 +33,7 @@ export class EducationListComponent implements OnInit {
       schoolName: 'Willow Creek Composite High School',
       programName: 'High School Diploma',
       completionDate: '2002',
-      programDescription: 'Math, science, history, unravleing the mystery that all started with graduating high school.',
+      programDescription: 'Math, science, history, unraveling the mystery that all started with graduating high school.',
       honours: false,
     }
   ];

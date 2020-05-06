@@ -8,30 +8,44 @@ export const JOBS: iJob[] = [
     endDate: "present",
     shortDescription: "Software customizations for municipal governments",
     longDescription:
-      "Software customizations for municipal governments. This description is a work in progress.",
+      "Accela and Salesforce customizations. When a particular condition occurs in the government software system an automation is triggered. Customizing forms for citizen access portals.",
     bonus: [
-      "Forms to manage employee contact information",
-      "Work with Microsoft IDEs such as Visual Studio and VS Code."
+      "Built a small library for accessing GIS data sources in Salesforce though ArcGIS REST APIs.",
+      "Work with Microsoft IDEs such as Visual Studio and VS Code.",
+      "Built Salesforce lightning web components to show handy information.",
+      "On project teams for Seattle, Hamilton County, Regional District of Okanagan-Similkameen, and Regional Municipality of Wood Buffalo",
     ],
     software: [
+      "Accela",
       "BASH",
       "Github",
-      "JIRA",
+      "IIS",
       "MS Teams",
-      "Accela",
+      "Pulse Secure",
+      "SQL Server Management Studio (SSMS)",
       "Salesforce",
-      "Visual Studio",
+      "VirtualBox",
       "Visual Studio Code",
-      "Windows 10"
+      "Visual Studio",
+      "Windows",
     ],
     technology: [
-      "ASP.Net",
-      "Arcgis",
-      "HTTP APIs",
+      "ASP.Net 4.6",
+      "Accela Government Software",
       "Apex code",
-      "Salesforce Lightning Components"
+      "GIS",
+      "HTTP APIs",
+      "JavaScript",
+      "MS SQL",
+      "OAuth2",
+      "Postman",
+      "SVN",
+      "Salesforce Lightning Web Components",
+      "Sharepoint",
+      "Visual Studio",
+      "Windows Server",
     ],
-    methodology: ["RESTful API"]
+    methodology: ["RESTful API", "Remote work", "SDLC", "Various"],
   },
   {
     companyName: "Quartech",
@@ -42,20 +56,20 @@ export const JOBS: iJob[] = [
       "Public portals to streamlining communication between the public and the Ministry of Justice to help support victims of crime.",
     longDescription: "",
     bonus: [
+      "Agile methodology",
+      "Angular authentication guarding, routing, and http interceptors.",
       "Assembling and bundling front end web technologies such as Angular, Bootstrap, and .NET Core for use in OpenShift.",
-      "Node versioning and dependency management.",
-      "Compliance with BCGov Devhub guidelines for forms and styles.",
-      "Reactive forms that update calculations as the user types.",
-      "Forms to manage employee contact information",
-      "Manually handling OpenShift devops tasks to deploy applications.",
-      "Leverage existing open source projects to accelerate application development.",
       "Asyncronous programming in ASP.Net Core to establish secure connections with the Microsoft Dynamics API using OAuth authentication ",
       "Building Angular forms and custom validation.",
+      "Compliance with BCGov Devhub guidelines for forms and styles.",
       "Component based application architecture.",
-      "Angular authentication guarding, routing, and http interceptors.",
+      "Forms to manage employee contact information",
+      "Leverage existing open source projects to accelerate application development.",
+      "Manually handling OpenShift devops tasks to deploy applications.",
+      "Node versioning and dependency management.",
       "Postman API testing.",
+      "Reactive forms that update calculations as the user types.",
       "Work with Microsoft IDEs such as Visual Studio and VS Code.",
-      "Agile methodology"
     ],
     software: [
       "BASH",
@@ -70,7 +84,7 @@ export const JOBS: iJob[] = [
       "Postman",
       "Rocket Chat",
       "Visual Studio Code",
-      "Windows 10"
+      "Windows 10",
     ],
     technology: [
       "ASP.Net Core 2",
@@ -78,7 +92,7 @@ export const JOBS: iJob[] = [
       "Bootstrap",
       "HTTP APIs",
       "Microsoft Dynamics",
-      "OpenShift"
+      "OpenShift",
     ],
     methodology: [
       "Agile",
@@ -87,15 +101,15 @@ export const JOBS: iJob[] = [
       "Kanban",
       "RESTful API",
       "Scrum",
-      "UML"
-    ]
+      "UML",
+    ],
   },
   {
     companyName: "Quartech",
     positionName: "Full Stack Developer",
     project: "Emergency Support Services modernization",
     startDate: "2019-03",
-    endDate: "present",
+    endDate: "2019-02",
     shortDescription: "Digitization of emergency response systen for BC.",
     longDescription: "Development to support emergency response in BC.",
     bonus: [
@@ -121,7 +135,7 @@ export const JOBS: iJob[] = [
       "SQLite for early-project data storage and retrieval.",
       "Installed Swagger in .Net Core for API self-documentation.",
       "Work with Microsoft IDEs.",
-      "As a developer I write user stories so that I can accomplish a programming task to meet acceptance criteria."
+      "As a developer I write user stories so that I can accomplish a programming task to meet acceptance criteria.",
     ],
     software: [
       "BASH",
@@ -138,7 +152,7 @@ export const JOBS: iJob[] = [
       "Puppeteer",
       "Rocket Chat",
       "Visual Studio Code",
-      "Windows 10"
+      "Windows 10",
     ],
     technology: [
       "ASP.Net Core 2",
@@ -148,7 +162,7 @@ export const JOBS: iJob[] = [
       "KeyCloak",
       "Markdown",
       "OpenShift",
-      "Siteminder"
+      "Siteminder",
     ],
     methodology: [
       "Agile",
@@ -159,8 +173,8 @@ export const JOBS: iJob[] = [
       "RESTful API",
       "Scrum",
       "UML",
-      "Wireframing"
-    ]
+      "Wireframing",
+    ],
   },
   {
     companyName: "Schneider Electric - Power Measurement Ltd",
@@ -205,7 +219,7 @@ export const JOBS: iJob[] = [
       "Create digitization solutions for manufacturing and production.",
       "Create team triage tool for automated risk assessment.",
       "Troubleshoot network and USB connected Zebra and Ricoh printers.",
-      "Attended an agile development training bootcamp where I played the role of a project owner throughout the training."
+      "Attended an agile development training bootcamp where I played the role of a project owner throughout the training.",
     ],
     software: [
       "ASP.Net",
@@ -238,7 +252,7 @@ export const JOBS: iJob[] = [
       "Visual Studio Code",
       "Windows 10",
       "Windows Networking",
-      "Windows Server 2016"
+      "Windows Server 2016",
     ],
     technology: [
       "Microsoft Development",
@@ -250,7 +264,7 @@ export const JOBS: iJob[] = [
       "Hardware and software integrations",
       "Virtualization",
       "Documentation",
-      "Markdown"
+      "Markdown",
     ],
     methodology: [
       "Kanban",
@@ -260,8 +274,8 @@ export const JOBS: iJob[] = [
       "APIs",
       "Process automation",
       "Logistics",
-      "Industrial ergonomics"
-    ]
+      "Industrial ergonomics",
+    ],
   },
   {
     companyName: "Schneider Electric - Power Measurement Ltd",
@@ -276,7 +290,7 @@ export const JOBS: iJob[] = [
       "Web application creation in MongoDB, Express, Angular, and NodeJS.",
       "Stakeholder presentations and public speaking.",
       "Stakeholder requirements gathering",
-      "Third party software research and evaluation."
+      "Third party software research and evaluation.",
     ],
     software: [
       "Pencil Prototyping",
@@ -285,15 +299,15 @@ export const JOBS: iJob[] = [
       "Mongoose",
       "Express",
       "PlantUML",
-      "Node.js"
+      "Node.js",
     ],
     technology: ["Plant UML", "MEAN Stack", "Node.js"],
     methodology: [
       "Iterative development",
       "Process analysis",
       "UML",
-      "Wireframing"
-    ]
+      "Wireframing",
+    ],
   },
   {
     companyName: "C3I - Capstone Project",
@@ -314,7 +328,7 @@ export const JOBS: iJob[] = [
       "Git",
       "D3",
       "C3",
-      "Docker"
+      "Docker",
     ],
     methodology: [
       "Small team",
@@ -323,8 +337,8 @@ export const JOBS: iJob[] = [
       "UML",
       "SDLC (Software Development Life Cycle)",
       "Containers",
-      "Microservices"
-    ]
+      "Microservices",
+    ],
   },
   {
     companyName: "BC Public Service Agency",
@@ -340,14 +354,14 @@ export const JOBS: iJob[] = [
       "Oracle PeopleSoft",
       "Sharepoint",
       "Microsoft Excel",
-      "Greyheller People Mobile"
+      "Greyheller People Mobile",
     ],
     methodology: [
       "PIA (Privacy Impact Assessment)",
       "STRA (Strategic Threat and Risk assessment)",
       "SDLC (Software Development Life Cycle)",
-      "QA (Quality assurance)"
-    ]
+      "QA (Quality assurance)",
+    ],
   },
   {
     companyName: "LayCraft Design",
@@ -358,7 +372,7 @@ export const JOBS: iJob[] = [
       "Client communication, administration, creative direction, print design, illustration, photography, branding consultation, and contract instruction.",
     longDescription:
       "Established in 2007, LayCraft Design was a full-service creative company. Curtis' primary responsibilities included client communication, administration, creative direction, web design, print design, illustration, photography, branding consultation, and contract instruction.\nExamples of clients: Government of Alberta computer training centre, Sun Media Group, BC Art Teachers Association, The Red Cross, The Salvation Army, and Events Edmonton. Created various branding, ads, promotions for nightclubs, restaurants, industrial companies, and other businesses.",
-    bonus: []
+    bonus: [],
   },
   {
     companyName: "Interactivity Board Game Café",
@@ -368,7 +382,7 @@ export const JOBS: iJob[] = [
     shortDescription: "Teaching board games. Café duties. Technical stuff.",
     longDescription:
       "Curtis taught games and sold games at the board games café. Curtis has taught and played over 400 modern designer board games. During the startup phase, he was responsible for a miscellany of work: setting up POS, TouchBistro server, and counting and arranging inventory. Board games are a beautiful mixture of algorithms, graphic design, game theory, and cardboard.",
-    bonus: []
+    bonus: [],
   },
   {
     companyName: "The Salvation Army Community and Family Services",
@@ -379,7 +393,7 @@ export const JOBS: iJob[] = [
       "Website content, rebranding, communication design, computer literacy instruction.",
     longDescription:
       "Curtis set up and the new Joomla website. He collected and wrote descriptions about the many programs and services that The Salvation Army Stan Hagen Centre for Families provides. He redesigned print materials to fit the centre's renaming: forms, business cards, certificates, manuals, signs, and etc… Curtis taught computer literacy skills in the computer lab: Windows, File Management, Word, Excel, and powerpoint. During Christmas he was responsible for various organizational tasks surrounding the Christmas Hamper and Toy Shop programs such as collecting and managing client intake data.",
-    bonus: []
+    bonus: [],
   },
   {
     companyName: "Northern Alberta Institute of Technology (NAIT)",
@@ -390,7 +404,7 @@ export const JOBS: iJob[] = [
       "Curriculum development, and instruction for graphic design classes.",
     longDescription:
       "Curtis developed curriculum and instructed at The Northern Alberta Institute of Technology (NAIT).  Classes included InDesign Level 1 & 2, Acrobat Level 1 & 2, Print Tools for Scanning & Printing, Photoshop Level 1-3, Digital Photo Basic, and Design Theory. He was also an instructor for NAIT's kids summer camps in GameMaker, digital photography, and Photoshop.",
-    bonus: []
+    bonus: [],
   },
   {
     companyName: "Edmonton Digital Arts College",
@@ -400,7 +414,7 @@ export const JOBS: iJob[] = [
     shortDescription: "Instructor for graphic design tools. Focused training.",
     longDescription:
       "After graduation, the college hired Curtis for his ability to instruct. Curtis' work was mainly in corporate-training and focused-training. He provided classes for various organizations such as: Blackberry & Acrobat Pro training for the Government of Alberta, InDesign Training for Sun Media Group, Adobe creative suite training for the University of Alberta's faculty of extension.",
-    bonus: []
+    bonus: [],
   },
   {
     companyName: "AT&T (Via: Convergys)",
@@ -411,7 +425,7 @@ export const JOBS: iJob[] = [
       "Tech-support, after-hours tech-support, billing support, activations and transfers.",
     longDescription:
       "Customers across the western USA called for troubleshooting and support with their GSM devices. Curtis used Siebel and AXIS CRM systems to track, resolve, and notate issues. Included troubleshooting of various GSM issues using AT&T tools.",
-    bonus: []
+    bonus: [],
   },
   {
     companyName: "Starbucks Coffee Co.",
@@ -421,6 +435,6 @@ export const JOBS: iJob[] = [
     shortDescription: "Slinging coffee and schmoozing with patrons.",
     longDescription:
       "Curtis' responsibility at Starbucks was primarily a Barista but included training other staff on making bar drinks. He started in West Edmonton Mall Chapters and transferred to Callingwood. He then moved to Terra Losa. Starbucks' work flexibility allowed him to work in dozens of stores in Edmonton and with many types of people.",
-    bonus: []
-  }
+    bonus: [],
+  },
 ];

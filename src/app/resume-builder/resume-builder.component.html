@@ -2,22 +2,48 @@
   <div class="col">
     <h1 class="display-3">Résumé</h1>
     <p>
-      I love to solve new problems and my work history reflects that. At Quartech I push code solutions as quickly and elegantly as possible to meet client objectives. At Schneider Electric I built solutions in whatever way I could to support manufacturing. As a co-op I supported the BC Government project team by using my resourcefulness to make problems go away. I started a graphic design company and took jobs doing just about anything that needed unique communication solutions. My friends opened a board game café so I did startup tasks including teaching board games, fixing things, making customers feel welcome, and setting up POS systems. The Salvation Army gave me responsibilities like organizing people and reworking communications. I really love solving puzzles and problems.
+      I love to solve new problems and my work history reflects that. At
+      Quartech I push code solutions as quickly and elegantly as possible to
+      meet client objectives. At Schneider Electric I built solutions in
+      whatever way I could to support manufacturing. As a co-op I supported the
+      BC Government project team by using my resourcefulness to make problems go
+      away. I started a graphic design company and took jobs doing just about
+      anything that needed unique communication solutions. My friends opened a
+      board game café so I did startup tasks including teaching board games,
+      fixing things, making customers feel welcome, and setting up POS systems.
+      The Salvation Army gave me responsibilities like organizing people and
+      reworking communications. I really love solving puzzles and problems.
     </p>
     <p>
-      This brings me to the ultimate career where I can put all of my skills to use: software development.
+      This brings me to the ultimate career where I can put all of my skills to
+      use: software development.
     </p>
   </div>
 </div>
-<hr>
+<hr />
 <div class="row">
   <div class="col">
     <div class="form-group">
       <label for="keywordInput">Keywords</label>
-      <input #keywordInputBox (input)="cleanKeywords(keywordInputBox.value)" type="text" class="form-control" id="keywordInput" aria-describedby="keywordHelp" placeholder="devops, database, etc…">
-      <small id="keywordHelp" class="form-text text-muted">Eventually you will enter keywords here to change résumé content.</small>
-      <span *ngIf="keywords">As mentioned this is unimplemented. Your input:
-        <span *ngFor="let keyword of keywords" class="badge badge-pill badge-primary mr-1">{{keyword}}</span>
+      <input
+        #keywordInputBox
+        (input)="cleanKeywords(keywordInputBox.value)"
+        type="text"
+        class="form-control"
+        id="keywordInput"
+        aria-describedby="keywordHelp"
+        placeholder="devops, database, etc…"
+      />
+      <small id="keywordHelp" class="form-text text-muted"
+        >Note: this currently only filters the matching experience.</small
+      >
+      <span *ngIf="keywords"
+        >Your keywords:
+        <span
+          *ngFor="let keyword of keywords"
+          class="badge badge-pill badge-primary mr-1"
+          >{{ keyword }}</span
+        >
       </span>
     </div>
   </div>
@@ -25,19 +51,39 @@
     <label>Which parts do you care about?</label>
     <div class="form-group">
       <div class="form-check form-check-inline">
-        <input [(ngModel)]="showObjective" id="objective" class="form-check-input" type="checkbox">
+        <input
+          [(ngModel)]="showObjective"
+          id="objective"
+          class="form-check-input"
+          type="checkbox"
+        />
         <label for="objective" class="form-check-label">Objective</label>
       </div>
       <div class="form-check form-check-inline">
-        <input [(ngModel)]="showHighlights" id="highlights" class="form-check-input" type="checkbox">
+        <input
+          [(ngModel)]="showHighlights"
+          id="highlights"
+          class="form-check-input"
+          type="checkbox"
+        />
         <label for="highlights" class="form-check-label">Highlights</label>
       </div>
       <div class="form-check form-check-inline">
-        <input [(ngModel)]="showEducation" id="education" class="form-check-input" type="checkbox">
+        <input
+          [(ngModel)]="showEducation"
+          id="education"
+          class="form-check-input"
+          type="checkbox"
+        />
         <label for="education" class="form-check-label">Education</label>
       </div>
       <div class="form-check form-check-inline">
-        <input [(ngModel)]="showExperience" id="experience" class="form-check-input" type="checkbox">
+        <input
+          [(ngModel)]="showExperience"
+          id="experience"
+          class="form-check-input"
+          type="checkbox"
+        />
         <label for="experience" class="form-check-label">Experience</label>
       </div>
     </div>
@@ -47,17 +93,23 @@
 <div *ngIf="showObjective" class="card">
   <div class="card-body">
     <h2>Objective</h2>
-    <hr>
-    <p>To continue strengthening software development and DevOps skills. Make more great software!</p>
+    <hr />
+    <p>
+      To continue strengthening software development and DevOps skills. Make
+      more great software!
+    </p>
   </div>
 </div>
 <div *ngIf="showHighlights" class="card mt-2">
   <div class="card-body">
     <h2>Highlights</h2>
-    <hr>
+    <hr />
     <ul>
       <li>Versatile skills through a broad range of experience</li>
-      <li>Dedication to high achievement as shown by consistent honour roll and co-op experience</li>
+      <li>
+        Dedication to high achievement as shown by consistent honour roll and
+        co-op experience
+      </li>
       <li>Loves methodological problem solving</li>
     </ul>
   </div>
@@ -65,14 +117,14 @@
 <div *ngIf="showEducation" class="card mt-2">
   <div class="card-body">
     <h2>Education</h2>
-    <hr>
+    <hr />
     <app-education-list></app-education-list>
   </div>
 </div>
 <div *ngIf="showExperience" class="card mt-2">
   <div class="card-body">
     <h2>Work Experience</h2>
-    <hr>
+    <hr />
     <app-job-list></app-job-list>
   </div>
 </div>

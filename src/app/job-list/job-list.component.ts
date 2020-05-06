@@ -28,7 +28,7 @@ export class JobListComponent implements OnInit {
     // collect the keys
     this.sharedDataService.keywords.subscribe((keys: string[]) => {
       //put the keywords in a variable we can use
-      if (keys) {
+      if (keys.length > 0) {
         this.keys = keys.map((k) => k.toLowerCase());
         // the indexes that should be added
         const employers: string[] = [];

@@ -9,49 +9,46 @@ import { SharedDataService } from "../shared-data.service";
   styleUrls: ["./job-list.component.css"],
 })
 export class JobListComponent implements OnInit {
-  JOBS: iJob[] = JOBS;
-  keywords: string[];
-  metaBlock: string[][] = [];
+  jobs: iJob[] = [];
+  keys: string[] = [];
+  meta: string[][] = [];
   constructor(private sharedDataService: SharedDataService) {}
 
   ngOnInit() {
-    this.metaBlock = JOBS.map((job: iJob): string[] => {
-      const meta: string[] = [];
-      // collect all the content into a meta block for searching
-      if (job.companyName)
-        job.companyName.split(" ").forEach((word: string) => meta.push(word));
-      if (job.longDescription)
-        job.longDescription
-          .split(" ")
-          .forEach((word: string) => meta.push(word));
-      if (job.positionName)
-        job.positionName.split(" ").forEach((word: string) => meta.push(word));
-      if (job.project)
-        job.project.split(" ").forEach((word: string) => meta.push(word));
-      job.shortDescription
-        .split(" ")
-        .forEach((word: string) => meta.push(word));
-      if (job.methodology)
-        job.methodology.forEach((word: string) => meta.push(word));
-      if (job.software) job.software.forEach((word: string) => meta.push(word));
-      if (job.technology)
-        job.technology.forEach((word: string) => meta.push(word));
-
-      // remove duplicates and sort
-      const metaClean = meta
-        .sort()
-        .filter((m, index) => meta.indexOf(m) === index)
-        .map((m: string): string => {
-          //when the last character is not a letter, #, or +  we remove it. (Punctuation)
-          return m.length > 1 && m[m.length - 1].match(/[^a-zA-Z#+]/)
-            ? m.substring(0, m.length - 1)
-            : m;
-        });
-      return metaClean;
+    // build a collection of
+    this.meta = JOBS.map((job: iJob): string[] => {
+      return [
+        // collect all the content into a meta block for searching
+        job.companyName,
+        //last element is the company name in entirety
+        JSON.stringify(job).toLowerCase(),
+      ];
     });
-    this.sharedDataService.keywords.subscribe((k: string[]) =>
+
+    // collect the keys
+    this.sharedDataService.keywords.subscribe((keys: string[]) => {
       //put the keywords in a variable we can use
-      k ? (this.keywords = k) : (this.keywords = [])
-    );
+      if (keys) {
+        this.keys = keys.map((k) => k.toLowerCase());
+        // the indexes that should be added
+        const employers: string[] = [];
+        for (let m of this.meta) {
+          // check for the presence of the key in the meta fields
+          for (let key of this.keys) {
+            // compare each word to the key
+            if (m[1].includes(key)) {
+              // add the job to the list
+              employers.push(m[0]);
+              // no need to evaluate the rest if one is already found
+              break;
+            }
+          }
+        }
+        this.jobs = JOBS.filter((job) => employers.includes(job.companyName));
+      } else {
+        // include all the jobs
+        this.jobs = JOBS;
+      }
+    });
   }
 }

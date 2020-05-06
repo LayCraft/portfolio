@@ -1,5 +1,6 @@
-<pre>Jobs {{ metaBlock | json }}</pre>
-<span *ngFor="let job of JOBS">
+<!-- <pre>{{ jobs | json }}</pre> -->
+<!-- <pre>{{ keys | json }}</pre> -->
+<span *ngFor="let job of jobs">
   <h5>{{ job.companyName }}</h5>
   <h6>
     {{ job.positionName }} ({{ job.startDate

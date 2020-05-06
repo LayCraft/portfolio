@@ -1,10 +1,15 @@
+<pre>Jobs {{ metaBlock | json }}</pre>
 <span *ngFor="let job of JOBS">
-  <h5>{{job.companyName}}</h5>
-  <h6>{{job.positionName}} ({{job.startDate}}<span *ngIf="job.endDate != job.startDate"> - {{job.endDate}}</span>)</h6>
-  {{job.shortDescription}}<br>
-  {{job.longDescription}}<br>
+  <h5>{{ job.companyName }}</h5>
+  <h6>
+    {{ job.positionName }} ({{ job.startDate
+    }}<span *ngIf="job.endDate != job.startDate"> - {{ job.endDate }}</span
+    >)
+  </h6>
+  {{ job.shortDescription }}<br />
+  {{ job.longDescription }}<br />
   <ul>
-    <li *ngFor="let entry of job.bonus">{{entry}}</li>
+    <li *ngFor="let entry of job.bonus">{{ entry }}</li>
   </ul>
-  <hr>
+  <hr />
 </span>

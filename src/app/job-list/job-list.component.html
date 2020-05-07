@@ -1,6 +1,6 @@
 <!-- <pre>{{ jobs | json }}</pre> -->
 <!-- <pre>{{ keys | json }}</pre> -->
-<span *ngFor="let job of jobs">
+<span *ngFor="let job of jobs; let i = index">
   <h5>{{ job.companyName }}</h5>
   <h6>
     {{ job.positionName }} ({{ job.startDate
@@ -9,8 +9,25 @@
   </h6>
   {{ job.shortDescription }}<br />
   {{ job.longDescription }}<br />
+
+  <!-- Details<br /> -->
   <ul>
     <li *ngFor="let entry of job.bonus">{{ entry }}</li>
   </ul>
+
+  <!-- Technologies<br />
+  <ul>
+    <li *ngFor="let entry of job.technology">{{ entry }}</li>
+  </ul>
+
+  Methodologies<br />
+  <ul>
+    <li *ngFor="let entry of job.methodology">{{ entry }}</li>
+  </ul>
+
+  Software<br />
+  <ul>
+    <li *ngFor="let entry of job.software">{{ entry }}</li>
+  </ul> -->
   <hr />
 </span>

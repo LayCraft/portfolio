@@ -109,7 +109,7 @@ export const JOBS: iJob[] = [
     positionName: "Full Stack Developer",
     project: "Emergency Support Services modernization",
     startDate: "2019-03",
-    endDate: "2019-02",
+    endDate: "2020-02",
     shortDescription: "Digitization of emergency response system for BC.",
     longDescription: "Development to support emergency response in BC.",
     bonus: [
@@ -120,7 +120,7 @@ export const JOBS: iJob[] = [
       "Assembling front end web technologies such as Angular, Bootstrap, and .NET Core for use in OpenShift.",
       "Dependency management through Docker container development practices.",
       "Triggered DevOps pipelines in OpenShift manually to deploy production applications.",
-      "Remote database administration in OpenShift using the \"oc\" command line tool paired with GUI database administration tools such as SSMS and Azure Data Studio.",
+      'Remote database administration in OpenShift using the "oc" command line tool paired with GUI database administration tools such as SSMS and Azure Data Studio.',
       "Leverage existing open source projects to accelerate application development.",
       "Built Angular reactive forms and custom validation.",
       "Angular authentication guarding, routing, and http interceptors.",

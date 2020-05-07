@@ -15,19 +15,32 @@
     <li *ngFor="let entry of job.bonus">{{ entry }}</li>
   </ul>
 
-  <!-- Technologies<br />
-  <ul>
-    <li *ngFor="let entry of job.technology">{{ entry }}</li>
-  </ul>
-
-  Methodologies<br />
-  <ul>
-    <li *ngFor="let entry of job.methodology">{{ entry }}</li>
-  </ul>
-
-  Software<br />
-  <ul>
-    <li *ngFor="let entry of job.software">{{ entry }}</li>
-  </ul> -->
+  <div *ngIf="job.technology">
+    <small> Technologies </small><br />
+    <span
+      *ngFor="let entry of job.technology"
+      class="badge badge-pill badge-info mr-2"
+      >{{ entry }}</span
+    >
+  </div>
+  <div *ngIf="job.methodology">
+    <small> Methodologies </small><br />
+    <span
+      *ngFor="let entry of job.methodology"
+      class="badge badge-pill badge-info mr-2"
+      >{{ entry }}</span
+    >
+  </div>
+  <div *ngIf="job.software">
+    <small>
+      Software
+    </small>
+    <br />
+    <span
+      *ngFor="let entry of job.software"
+      class="badge badge-pill badge-info mr-2"
+      >{{ entry }}</span
+    >
+  </div>
   <hr />
 </span>

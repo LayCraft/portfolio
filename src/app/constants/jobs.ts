@@ -5,7 +5,7 @@ export const JOBS: iJob[] = [
     companyName: "Avocette",
     positionName: "Developer",
     startDate: "2020-03",
-    endDate: "present",
+    endDate: "2020-05",
     shortDescription: "Software customizations for municipal governments",
     longDescription:
       "Accela and Salesforce customizations. When a particular condition occurs in the government software system an automation is triggered. Customizing forms for citizen access portals.",

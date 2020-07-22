@@ -1,23 +1,26 @@
 {
   "configVersion": 1,
-  "timestamp": 1590256729060,
+  "timestamp": 1595450985803,
   "index": "https://laycraft.github.io/portfolio/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
         "https://laycraft.github.io/portfolio/favicon.ico",
         "https://laycraft.github.io/portfolio/index.html",
-        "https://laycraft.github.io/portfolio/main-es2015.bd265f63a3d49d5c4caa.js",
-        "https://laycraft.github.io/portfolio/main-es5.bd265f63a3d49d5c4caa.js",
+        "https://laycraft.github.io/portfolio/main-es2015.9c3f4af5291371353cc5.js",
+        "https://laycraft.github.io/portfolio/main-es5.9c3f4af5291371353cc5.js",
         "https://laycraft.github.io/portfolio/manifest.webmanifest",
-        "https://laycraft.github.io/portfolio/polyfills-es2015.80e92b0966bcccdcc2c4.js",
-        "https://laycraft.github.io/portfolio/polyfills-es5.5b74248ea87a2daf7423.js",
-        "https://laycraft.github.io/portfolio/runtime-es2015.1eba213af0b233498d9d.js",
-        "https://laycraft.github.io/portfolio/runtime-es5.1eba213af0b233498d9d.js",
-        "https://laycraft.github.io/portfolio/styles.2d552f88fe41f99ab90b.css"
+        "https://laycraft.github.io/portfolio/polyfills-es2015.e6d372af0f81b313b8e5.js",
+        "https://laycraft.github.io/portfolio/polyfills-es5.d186dbbffd4150636579.js",
+        "https://laycraft.github.io/portfolio/runtime-es2015.409e6590615fb48d139f.js",
+        "https://laycraft.github.io/portfolio/runtime-es5.409e6590615fb48d139f.js",
+        "https://laycraft.github.io/portfolio/styles.7f73e10b0f12436dd1e3.css"
       ],
       "patterns": []
     },
@@ -25,6 +28,9 @@
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
         "https://laycraft.github.io/portfolio/assets/icons/128x128.png",
         "https://laycraft.github.io/portfolio/assets/icons/144x144.png",
@@ -64,16 +70,16 @@
     "https://laycraft.github.io/portfolio/assets/placeholders/200x200.svg": "951a3cd08a39288ab9eb6b7eb1c7d77e8d8848e1",
     "https://laycraft.github.io/portfolio/assets/sasquatch.svg": "dc96839e6b0e49d80c29cc41443f668e1ff9768c",
     "https://laycraft.github.io/portfolio/favicon.ico": "3e03a69e61558dccf09b41a8a947ff4ce59ff85c",
-    "https://laycraft.github.io/portfolio/index.html": "2a430974a10624777edbe7725d596a63fb852efc",
-    "https://laycraft.github.io/portfolio/main-es2015.bd265f63a3d49d5c4caa.js": "68a02915573a8af1a41809ee9b2524a5c41224b5",
-    "https://laycraft.github.io/portfolio/main-es5.bd265f63a3d49d5c4caa.js": "bdfb211cf3d399f7f111996fb2f1b1d67357f787",
+    "https://laycraft.github.io/portfolio/index.html": "27765e54863760d9fa28dfdca25a1c8b4553e4b6",
+    "https://laycraft.github.io/portfolio/main-es2015.9c3f4af5291371353cc5.js": "79754c355e0d6c8728b9ec8e43a43bc33950f158",
+    "https://laycraft.github.io/portfolio/main-es5.9c3f4af5291371353cc5.js": "fa8ee5d1bfc17b0246ab38a92676b43ee8f60b00",
     "https://laycraft.github.io/portfolio/manifest.webmanifest": "34fb553cfbea3ab8f3148f091904ca650b3f7463",
     "https://laycraft.github.io/portfolio/pattern.aa15b343b37b216299fa.svg": "b80b7af3b1cdea958e88a86b89505d8e82539dd7",
-    "https://laycraft.github.io/portfolio/polyfills-es2015.80e92b0966bcccdcc2c4.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
-    "https://laycraft.github.io/portfolio/polyfills-es5.5b74248ea87a2daf7423.js": "4d99cb6e3b98bf0937923cdd2b2d1f3d579c5d23",
-    "https://laycraft.github.io/portfolio/runtime-es2015.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "https://laycraft.github.io/portfolio/runtime-es5.1eba213af0b233498d9d.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "https://laycraft.github.io/portfolio/styles.2d552f88fe41f99ab90b.css": "c89dabc7467c051a92b7f7087d3ad2f8e9270858"
+    "https://laycraft.github.io/portfolio/polyfills-es2015.e6d372af0f81b313b8e5.js": "90fb474e1a7d87bd57bc8a95fb3fd361b919d815",
+    "https://laycraft.github.io/portfolio/polyfills-es5.d186dbbffd4150636579.js": "fa7a8ca225126254b13508c6ae7932a7a2c40910",
+    "https://laycraft.github.io/portfolio/runtime-es2015.409e6590615fb48d139f.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://laycraft.github.io/portfolio/runtime-es5.409e6590615fb48d139f.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "https://laycraft.github.io/portfolio/styles.7f73e10b0f12436dd1e3.css": "d5789258acbc114eccb46cf81ec7b4f681898142"
   },
   "navigationUrls": [
     {
